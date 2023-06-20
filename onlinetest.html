@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Bucks</title>
+    <link rel='stylesheet' href='assets/css/style-onlimetest.css'>
+    <script src="scriptfortest.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@200&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="header_logo">Bucks</div>
+
+                <nav class="nav">
+                    <a class="nav_link" href="index.htm">Bucks</a>
+                    <a class="nav_link" href="#footer">Contacts</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="p_intro">
+        <div class="container">
+            <div class="intro_inner">
+                <h1 class="intro_title">
+                    Online form
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <div class="section_header">
+                <h3 class="section_subtitle">Bucks</h3>
+                <h2 class="section_title">About my cat</h2>
+                <div class="section_text">
+                    <p>Это <s>беспонтовая</s> форма. Она не несет никакой смысловой нагрузки.
+                    </p>
+                    <p> Если хочешь, можешь заполнить ее.</p>
+                    <p><b>Если захочешь удалить все из таблицы, обнови страницу пж.</b></p>
+                </div>
+            </div>
+            <div class="about">
+                <div class="about_item">
+                    <div class="about_img">
+                        <img src="assets\images\face1.jpg" width="300px">
+                    </div>
+                </div>
+                <div class="about_item">
+                    <div class="about_img">
+                        <img src="assets\images\face2.jpg" width="300px">
+                    </div>
+                </div>
+                <div class="about_item">
+                    <div class="about_img">
+                        <img src="assets\images\face3.jpg" width="300px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="cotainerform">
+        <div class="input">Введите кошачье имя, которое Вам нравится: <input id="name" type="text"></div>
+        <p>Что бы Вы хотели съесть на завтрак?</p>
+        <div class="dropdown">
+            <select id="age">
+                <option value="Провод от зарядного">Провод от зарядного</option>
+                <option value="Сухой корм">Сухой корм</option>
+                <option value="Влажный корм">Влажный корм</option>
+                <option value="Растение в горшке">Растение в горшке</option>
+            </select>
+        </div>
+        <p>Вы подвижный человек?</p>
+        <div class="input">
+            <input type="radio" id="is_active_yes" name="1" value="Да">Да
+            <input type="radio" id="is_active_no" name="1" value="Нет">Нет
+        </div>
+        <p>Чем бы Вы хотели заняться днем?</p>
+        <div class="input">
+            <input type="checkbox" id="sleep" value="Спать">Спать
+            <input type="checkbox" id="spit" value="Блевать на ковер">Блевать на ковер
+            <input type="checkbox" id="ruin" value="Драть обои">Драть обои
+            <input type="checkbox" id="catch" value="Ловить птиц">Ловить птиц
+        </div>
+
+        <button id="entry" class="btn">Submit</button>
+         <p>Результаты:</p>
+    </div>
+   
+    <table id="display"> 
+       
+        <tr>
+            <th>Имя</th>
+            <th>Еда</th>
+            <th>Подвижный</th>
+            <th>Занятие</th>
+        </tr>
+    </table>
+
+
+
+    <section class="section_footer">
+        <div class="container">
+            <div class="section_header">
+                <h2 class="section_title">Contacts</h2>
+            </div>
+            <div class="contacts" id="footer">
+                <div class="contact_item">
+                    <img class="contacts_icon" src="assets\images\telegram.jpg" width="50px">
+                    <a class="scontacts_title" href="https://t.me/Anyascatbot">telegram</a>
+                    <div class="scontacts_text">Telegram бот с фотографиями Бакса.</div>
+                </div>
+                <div class="contact_item">
+                    <img class="contacts_icon" src="assets\images\instagram.jpg" width="50px">
+                    <a class="scontacts_title"
+                        href="https://instagram.com/hannakondrashuk?igshid=NTdlMDg3MTY=">instagram</a>
+                    <div class="scontacts_text">Инстаграмм аккаунт, где иногда появляются фото Бакса.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
